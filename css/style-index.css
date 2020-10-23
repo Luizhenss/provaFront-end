@@ -1,0 +1,234 @@
+@font-face {
+    font-family: rocketFont;
+    src: url(../fonte/Rocket-league-font.ttf);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: "rocketFont", Arial, Helvetica, sans-serif;
+    background: rgb(29, 40, 82);
+    background-size: cover;
+}
+
+
+/*MENU*/
+
+.container {
+    background: rgb(13, 15, 61);
+}
+
+.container img {
+    width: 50px;
+    margin-left: 40px;
+}
+
+.container h1 {
+    letter-spacing: 1.4px;
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    left: 140px;
+    font-size: 20pt;
+    cursor: default;
+}
+
+.container h1 span {
+    font-size: 12pt;
+}
+
+.container #mais {
+    position: absolute;
+}
+
+.container #trapezio {
+    position: absolute;
+    border-bottom: 54px solid #f87f23;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 186px;
+    left: 1150px;
+    top: 0px;
+}
+
+.container #trapezio:hover {
+    border-bottom: 54px solid #ce6016;
+}
+
+.container #trapezio a {
+    position: absolute;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25pt;
+    color: #fff;
+    font-style: italic;
+    left: 38px;
+    top: 8px;
+    letter-spacing: 1px;
+}
+
+.container #trapezio a:hover {
+    color: rgb(5, 8, 99);
+}
+
+
+/* DROPDOWN */
+
+.dropbtn {
+    font-family: "rocketFont";
+    background-color: #f87f23;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px 0px 20px 0px;
+    height: 54px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 900px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: rgb(5, 8, 99);
+}
+
+.dropdown-content #baixo:hover {
+    border-bottom: 1px solid #f87f23;
+}
+
+.dropdown-content #cima:hover {
+    border-top: 1px solid #f87f23;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ce6016;
+    color: rgb(5, 8, 99);
+}
+
+
+/* CARD 1 */
+
+.mediaCard {
+    background-color: #000;
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    border: 3px solid #0f77ed;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.mediaCard img {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.mediaCard h1 {
+    position: absolute;
+    display: flex;
+    font-size: 11pt;
+    color: #0f77ed;
+    justify-content: center;
+    top: 265px;
+    left: 11px;
+    letter-spacing: 1.5px;
+}
+
+.mediaCard:hover {
+    transition: 1s;
+    background-color: #000;
+    border: 3px solid #000;
+}
+
+
+/* CARD 2 */
+
+.mediaCard2 {
+    background-color: #000;
+    position: absolute;
+    top: 170px;
+    left: 505px;
+    border: 3px solid #2ce94b;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.mediaCard2 img {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.mediaCard2 h1 {
+    position: absolute;
+    display: flex;
+    font-size: 10pt;
+    color: #2ce94b;
+    justify-content: center;
+    top: 265px;
+    left: 10px;
+    letter-spacing: 1.5px;
+}
+
+.mediaCard2:hover {
+    transition: 1s;
+    background-color: #000;
+    border: 3px solid #000000;
+}
+
+
+/* CARD 3 */
+
+.mediaCard3 {
+    background-color: #000;
+    position: absolute;
+    top: 170px;
+    left: 970px;
+    border: 3px solid #da1919;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.mediaCard3 img {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.mediaCard3 h1 {
+    position: absolute;
+    display: flex;
+    font-size: 10pt;
+    color: #da1919;
+    justify-content: center;
+    top: 265px;
+    left: 10px;
+    letter-spacing: 1.5px;
+}
+
+.mediaCard3:hover {
+    transition: 1s;
+    background-color: #000;
+    border: 3px solid #000000;
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: rocketFont;
+    src: url(../fonte/Rocket-league-font.ttf);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: url(../images/images-login/background-login.png);
+    background-size: cover;
+    font-family: "rocketFont", Arial, Helvetica, sans-serif;
+}
+
+#logo img {
+    position: absolute;
+    width: 50px;
+}
+
+.login {
+    width: 350px;
+    height: 450px;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #1b2938;
+    top: 50%;
+    left: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 28px;
+}
+
+#campo {
+    margin-bottom: 30px;
+}
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #e6e4e4;
+    letter-spacing: 4px;
+    cursor: default;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.login input[type="email"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.login [type="submit"] {
+    font-family: "rocketFont";
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #cfd0d1;
+    border-radius: 20px;
+    transition: 1s;
+    width: 260px;
+    height: 40px;
+    letter-spacing: 2px;
+}
+
+.login [type="submit"]:hover {
+    cursor: pointer;
+    background: #4b4b4b;
+    transition: 0.1s;
+}
+
+.login a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #cfd0d1;
+    letter-spacing: 3px;
+}
+
+.login a:hover {
+    transition: 0.2s;
+    color: #4b4b4b;
+}

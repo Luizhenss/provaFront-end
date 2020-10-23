@@ -1,0 +1,142 @@
+@font-face {
+    font-family: rocketFont;
+    src: url(../fonte/Rocket-league-font.ttf);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: rgb(33, 41, 90);
+}
+
+.container {
+    width: 950px;
+    height: 500px;
+    box-shadow: 5px 5px 15px rgba(50, 50, 50, 0.597);
+    border: 1px solid rgba(0, 0, 0, 0.296);
+    border-radius: 10px 10px 10px 10px;
+    background-color: #bbbbbb;
+    top: 50%;
+    left: 680px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 28px;
+}
+
+.profile {
+    position: absolute;
+    border-right: 1px solid #000;
+    width: 350px;
+    height: 400px;
+    left: 30px;
+    top: 50px;
+}
+
+#eu {
+    position: absolute;
+    width: 160px;
+    border-radius: 50%;
+    left: 90px;
+}
+
+
+/* REDES SOCIAIS */
+
+.links a img {
+    width: 40px;
+    position: absolute;
+}
+
+#f1 {
+    position: absolute;
+    border: none;
+    width: 250px;
+    height: 45px;
+    background: rgba(4, 3, 3, 0.727);
+    top: 200px;
+    padding-left: 20px;
+    left: 25px;
+}
+
+#f1 img {
+    border-right: 1px solid rgba(0, 0, 0, 0.350);
+    padding-right: 20px;
+    padding-top: 3px;
+}
+
+#n1 {
+    position: absolute;
+    font-size: 20pt;
+    left: 130px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    top: 6px;
+}
+
+#f2 {
+    position: absolute;
+    border: none;
+    width: 250px;
+    height: 45px;
+    background: rgb(38, 67, 182);
+    top: 260px;
+    padding-left: 20px;
+    left: 25px;
+}
+
+#f2 img {
+    border-right: 1px solid rgba(0, 0, 0, 0.350);
+    padding-right: 20px;
+    padding-top: 2px;
+}
+
+#n2 {
+    position: absolute;
+    font-size: 20pt;
+    left: 125px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    top: 6px;
+}
+
+#f3 {
+    position: absolute;
+    border: none;
+    width: 250px;
+    height: 45px;
+    background: rgb(80, 8, 94);
+    top: 320px;
+    padding-left: 20px;
+    left: 25px;
+}
+
+#f3 img {
+    border-right: 1px solid rgba(0, 0, 0, 0.350);
+    padding-right: 20px;
+    padding-top: 2px;
+}
+
+#n3 {
+    position: absolute;
+    font-size: 20pt;
+    left: 120px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    top: 6px;
+}
+
+.informations {
+    position: absolute;
+    width: 445px;
+    height: 400px;
+    left: 410px;
+    top: 50px;
+}
+
+.informations p {
+    font-size: 13pt;
+}

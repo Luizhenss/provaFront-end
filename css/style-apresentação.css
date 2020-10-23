@@ -1,0 +1,33 @@
+@font-face {
+    font-family: rocketFont;
+    src: url(../fonte/Rocket-league-font.ttf);
+}
+
+body {
+    background: url(../images/images-apresentação/background.jpg);
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    top: 60px;
+    left: 530px;
+    text-align: justify;
+    background: rgba(55, 55, 55, 0.659);
+}
+
+.container p {
+    font-size: 15pt;
+    color: rgb(202, 202, 202);
+    padding: 15px;
+    line-height: 23px;
+}
+
+.container h1 {
+    margin-left: 15px;
+    color: rgb(202, 202, 202);
+}
